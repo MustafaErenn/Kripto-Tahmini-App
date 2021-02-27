@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9bb1ff"
+
+    tools:context=".views.CoinTahminActivity"
+    >
+
+
+
+    <TextView
+        android:id="@+id/coinTitle"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#373f51"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:text="Coin Adı"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/acilisTitleText"
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="95dp"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:text="1 SAATLIK MUM ACILISI:"
+
+        android:textColor="@android:color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/coinTitle" />
+
+    <TextView
+        android:id="@+id/acilisText"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="24dp"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:text=""
+
+        android:textColor="@android:color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/acilisTitleText" />
+
+    <TextView
+        android:id="@+id/anlikDegerText"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="24dp"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:text=""
+
+        android:textColor="@android:color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/anlikDegerTitleText" />
+
+    <TextView
+        android:id="@+id/tahminText"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="24dp"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:text=""
+
+        android:textColor="@android:color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tahminTitleText" />
+
+    <TextView
+        android:id="@+id/anlikDegerTitleText"
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="24dp"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:text="ANLIK DEGERI: "
+
+        android:textColor="@android:color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/divider3" />
+
+    <TextView
+        android:id="@+id/tahminTitleText"
+        android:layout_width="350dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="24dp"
+
+        android:gravity="center"
+        android:text="1 SAATLIK MUM KAPANIS TAHMINI: "
+
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/divider4" />
+
+    <View
+        android:id="@+id/divider3"
+        android:layout_width="409dp"
+        android:layout_height="5dp"
+        android:layout_marginTop="24dp"
+        android:background="#fff"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/acilisText" />
+
+    <View
+        android:id="@+id/divider4"
+        android:layout_width="409dp"
+        android:layout_height="5dp"
+        android:layout_marginTop="24dp"
+        android:background="#fff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/anlikDegerText" />
+
+    <Button
+        android:id="@+id/anaSayfaButton"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/white"
+        android:onClick="anaSayfaButonu"
+        android:text="Ana Sayfa"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tahminText" />
+
+    <ImageView
+        android:id="@+id/coinLogosu"
+        android:layout_width="87dp"
+        android:layout_height="79dp"
+
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/coinTitle"
+        tools:srcCompat="@tools:sample/avatars" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
