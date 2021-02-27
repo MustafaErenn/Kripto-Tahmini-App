@@ -17,4 +17,4 @@ Bu sayfa uygulamanın açılış ekranı ve bu sayfada local hostta yer alan bü
 Bu sayfa uygulamanın açılış ekranından seçtiğiniz coinin tahminini alabilirsiniz.
 
 
-Bu botta yer alan tahmin ifadeleri yatırım tavsiyesi değildir!. 
+Bu botta yer alan tahmin ifadeleri yatırım tavsiyesi değildir! Bu bot ile yapılan herhangi bir işlemden sorumlu değilim riski göze alarak işlem yapınız!
